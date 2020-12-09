@@ -1,0 +1,36 @@
+body {
+    background:black;
+    display:flex;
+    flex-direction: column;
+}
+
+h1 {
+    color:red;
+    text-align: center;
+    border: red dotted 5px;
+    margin: 5px 5px;
+}
+
+button {
+    align-self: center;
+    margin:25px 25px;
+    background:red
+    
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: upper-roman;
+    color: white;
+    align-self: center;
+}
+a {
+    color:white;
+    font-size:25px;
+}
