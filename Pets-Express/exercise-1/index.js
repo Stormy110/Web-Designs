@@ -34,6 +34,7 @@ app.get('/pets', (req,res)=>{
     });
 });
 
+
 app.get('/pets/:name', (req,res)=>{
     const {name} = req.params;
     console.log(name)
@@ -43,6 +44,7 @@ app.get('/pets/:name', (req,res)=>{
         }
     })
 });
+
 
 server.listen(PORT, ()=>{
     console.log(`Running on http://localhost:${PORT}`);
