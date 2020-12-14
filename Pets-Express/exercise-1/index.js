@@ -45,6 +45,11 @@ app.get('/pets/:name', (req,res)=>{
     })
 });
 
+app.get('*',(req,res)=>{
+    res.status(404)
+    res.send(`<h1>This site does not exist.</h1>`)
+})
+
 
 server.listen(PORT, ()=>{
     console.log(`Running on http://localhost:${PORT}`);
